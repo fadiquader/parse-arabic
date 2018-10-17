@@ -1,0 +1,25 @@
+{
+  "name": "parse-arabic",
+  "version": "1.0.0",
+  "description": "Parse arabic number to English and clean the number srting from characters",
+  "main": "index.js",
+  "author": "Fadi Quader",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "clean": "rimraf packages/**/lib"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.0",
+    "ava": "^0.25.0",
+    "lerna": "^3.4.3",
+    "rimraf": "^2.6.2",
+    "typescript": "^3.1.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
