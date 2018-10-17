@@ -18,14 +18,5 @@
     "build": "tsc -b",
     "build:watch": "tsc --watch",
     "test": "tsc && ava"
-  },
-  "ava": {
-    "compileEnhancements": false,
-    "extensions": [
-      "ts"
-    ],
-    "require": [
-      "ts-node/register"
-    ]
   }
 }
