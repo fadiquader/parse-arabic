@@ -18,5 +18,6 @@
     "build": "tsc -b",
     "build:watch": "tsc --watch",
     "test": "tsc && ava"
-  }
+  },
+  "gitHead": "4a9b3a89a32c97a8856cfa2403564069271c5ed1"
 }

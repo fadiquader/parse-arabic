@@ -5,5 +5,12 @@
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "1.0.1"
+  "version": "1.0.1",
+  "ignoreChanges": [
+    "**/package-lock.json",
+    "**/yarn.lock",
+    "lerna.json",
+    "readme.md",
+    "package.json"
+  ]
 }

@@ -5,7 +5,7 @@
   "author": "Fadi Quader",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fadiquader/parse-arabic"
+    "url": "git://github.com/fadiquader/parse-arabic"
   },
   "license": "MIT",
   "private": true,
