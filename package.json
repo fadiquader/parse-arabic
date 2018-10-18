@@ -2,8 +2,11 @@
   "name": "parse-arabic",
   "version": "1.0.0",
   "description": "Parse arabic number to English and clean the number srting from characters",
-  "main": "index.js",
   "author": "Fadi Quader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fadiquader/parse-arabic"
+  },
   "license": "MIT",
   "private": true,
   "scripts": {
