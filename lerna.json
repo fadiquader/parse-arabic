@@ -1,11 +1,23 @@
 {
   "lerna": "3.4.3",
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ]
+    },
+    "bootstrap": {
+      "ignore": "component-*",
+      "npmClientArgs": ["--no-package-lock"]
+    }
+  },
   "packages": [
     "packages/*"
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "ignoreChanges": [
     "**/package-lock.json",
     "**/yarn.lock",
