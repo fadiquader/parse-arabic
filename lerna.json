@@ -9,7 +9,9 @@
     },
     "bootstrap": {
       "ignore": "component-*",
-      "npmClientArgs": ["--no-package-lock"]
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     }
   },
   "packages": [
@@ -17,7 +19,7 @@
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "ignoreChanges": [
     "**/package-lock.json",
     "**/yarn.lock",
