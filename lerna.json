@@ -19,7 +19,7 @@
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "1.0.5",
+  "version": "1.0.6",
   "ignoreChanges": [
     "**/package-lock.json",
     "**/yarn.lock",
