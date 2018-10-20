@@ -1,6 +1,6 @@
 {
   "name": "@parse-arabic/core",
-  "version": "1.0.6",
+  "version": "1.0.6-alpha.0+24cef84",
   "description": "",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -19,5 +19,5 @@
     "build:watch": "tsc --watch",
     "test": "tsc && ava"
   },
-  "gitHead": "01c101fc3869af6045346ccf1cce5b2c4c3aebea"
+  "gitHead": "24cef842b784897d87da45da1ad838d711c718c6"
 }
