@@ -1,6 +1,6 @@
 {
   "name": "@parse-arabic/core",
-  "version": "1.0.6-alpha.1+3599da0",
+  "version": "1.0.7",
   "description": "",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
