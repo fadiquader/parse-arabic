@@ -1,19 +1,21 @@
 {
   "name": "parse-arabic",
-  "version": "1.0.0",
   "description": "Parse arabic number to English and clean the number srting from characters",
   "author": "Fadi Quader",
   "repository": {
     "type": "git",
     "url": "git://github.com/fadiquader/parse-arabic"
   },
-  "license": "MIT",
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "test": "lerna run test",
-    "clean": "rimraf packages/**/lib"
+    "clean": "rimraf packages/**/lib",
+    "update-version": "lerna publish --skip-git --skip-npm --force-publish '*'"
+  },
+  "dependencies": {
+
   },
   "devDependencies": {
     "@types/node": "^10.12.0",
